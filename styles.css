@@ -1,0 +1,214 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+
+
+
+
+
+.menu {
+    width: 15%;
+    height: 100vh;
+    background-color: #84d9d7ff;
+    padding: 10px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+.menu ul {
+    height: 200px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.menu ul a {
+    color: #694d39ff;
+    text-decoration: none;
+}
+.menu ul a:hover {
+    background-color: #009fa5ff;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+
+
+.header {
+    background-color: #009fa5ff;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.header img {
+    height: 150px;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #694d39ff;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.campo {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.campo a, .footer a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer a {
+    justify-content: center;
+}
+
+
+
+
+
+/*index*/
+
+.content {
+    background-color: white;
+    min-height: 60vh;
+    color: #694d39ff;
+    font-family: sans-serif;
+    font-size: larger;
+    text-indent: 2em;
+    text-align: justify;
+}
+#content-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#content-main p {
+    margin-right: 50px;
+}
+
+/*sobre*/
+
+#content-sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#content-sobre, p {
+    width: 900px;
+    margin-left: 40px;
+}
+#content-sobre h3 {
+    font-size: large;
+    text-align: center;
+    margin: 0;
+}
+#content-sobre ul {
+    width: 800px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#content-sobre ul li {
+    margin-top: 10px;
+    text-align: center ;
+    list-style: none;
+}
+
+/*horarios*/
+
+#content-horarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content-horarios table {
+    text-align: center;
+    width: 90%;
+}
+#content-horarios table thead {
+    background-color: #84d9d7ff;
+}
+#content-horarios p {
+    margin-left: 10px;
+    text-align: left;
+}
+
+/*contato*/
+
+#content-contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-indent: 0;
+}
+.contatoCampo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+form input {
+    width: 250px;
+    float: right;
+}
+textarea {
+    width: 400px;
+}
+#botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+button {
+    background-color: #694d39ff;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: medium;
+}
